@@ -20,7 +20,7 @@ colorSchema: dark
 layout: two-cols
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 colorSchema: dark
 ---
 
@@ -63,10 +63,10 @@ subject: What is Kotlin Script?
 layout: center
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
-<Image src="/kotlin-gradle-dsl.png" width="700px" />
+<Image src="/pt-kotlin-script/kotlin-gradle-dsl.png" width="700px" />
 
 <!--
 화면에 보이는 것은 그라들 코틀린 DSL로 작성한 빌드 스크립트입니다. 평소 관심이 없다면 눈치채지 못했을 수 있는데요, 확장자가 kts입니다.
@@ -77,7 +77,7 @@ headerLogo: /logo.svg
 layout: center
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 width: 800
 ---
 
@@ -94,7 +94,7 @@ Kotlin code as scripts without prior compilation or packaging into executables.
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 다른 스크립트 언어처럼 빌드 없이 실행가능!
@@ -129,7 +129,7 @@ Hello, Kotlin!
 layout: center
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 그러나...
@@ -137,7 +137,7 @@ headerLogo: /logo.svg
 <spacer gap="20" />
 
 <div style="position: relative;">
-<Image src="/experimental.png" width="600" caption="https://kotlinlang.org/docs/custom-script-deps-tutorial.html" />
+<Image src="/pt-kotlin-script/experimental.png" width="600" caption="https://kotlinlang.org/docs/custom-script-deps-tutorial.html" />
 <span style="font-size: 70px; position: absolute; right: -30px; bottom: -50px; transform: rotate(10deg);">
 😱
 </span>
@@ -151,7 +151,7 @@ headerLogo: /logo.svg
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 써야할 이유가 있나요?
@@ -172,7 +172,7 @@ headerLogo: /logo.svg
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 일단 어디에 쓸 수 있는지 알아보자!
@@ -203,7 +203,7 @@ subject: Alternative shell-scripting
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Shell Script 대체
@@ -238,7 +238,7 @@ Shell Script 대신 Kotlin Script를 사용할 수 있다.
 layout: center
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Kotlin을 사용하는 조직에선 쓸만할지도?
@@ -253,7 +253,7 @@ headerLogo: /logo.svg
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 사용 방법
@@ -295,7 +295,7 @@ Hello, Kotlin!
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # shebang 사용
@@ -324,7 +324,7 @@ shebang을 사용하면 명령어를 생략하고 실행하는 것도 가능합�
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # KScript
@@ -361,7 +361,7 @@ $ sdk install kscript
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 외부 라이브러리 사용하기
@@ -405,7 +405,7 @@ $ kscript main.kts
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 바이너리 패키징
@@ -442,14 +442,14 @@ $ ./main # Need Java
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # IntelliJ와 함께 사용하기
 
 `kscript --idea`를 사용하면 자동으로 IntelliJ에서 편집할 수 있게 구성해준다.
 
-<Image src="/autocomplete.png" />
+<Image src="/pt-kotlin-script/autocomplete.png" />
 
 <!--
 idea 옵션을 붙이면 IntelliJ에서 편집할 수 있도록 프로젝트를 구성해줍니다. 이를 통해 자동 완성이나 오류를 IDE에서 볼 수 있습니다.
@@ -459,7 +459,7 @@ idea 옵션을 붙이면 IntelliJ에서 편집할 수 있도록 프로젝트를 
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # args 사용
@@ -489,7 +489,7 @@ hi, hello, bye
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 여러 라이브러리와 함께 사용해보자
@@ -505,7 +505,7 @@ headerLogo: /logo.svg
 layout: two-cols
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Clikt
@@ -549,7 +549,7 @@ Hello kciter!
 layout: two-cols
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Mordant
@@ -607,7 +607,7 @@ mordant는 터미널에서 UI를 쉽게 그릴 수 있게 도와줍니다. 슬�
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 해볼 수 있는건 많다!
@@ -641,7 +641,7 @@ subject: Embedded Scripting
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Runtime에 Kotlin Script를 실행하는 두 가지 방법
@@ -661,7 +661,7 @@ headerLogo: /logo.svg
 layout: center
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 실험 단계라 그런지 문서가 빈약...
@@ -680,7 +680,7 @@ https://github.com/Kotlin/kotlin-script-examples
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Java Scripting API (JSR-223)
@@ -699,7 +699,7 @@ python, javascript, php 등 다양한 언어가 구현체만 있으면 실행이
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Java Scripting API (JSR-223)
@@ -738,7 +738,7 @@ fun main() {
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Java Scripting API (JSR-223)
@@ -768,7 +768,7 @@ fun main() {
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Embeddable Host
@@ -793,7 +793,7 @@ Embeddable Host는 Kotlin에서 직접 제공하는 내장 컴파일러를 이�
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 뭘 할 수 있을까?
@@ -816,7 +816,7 @@ headerLogo: /logo.svg
 layout: two-cols
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # HTML Template
@@ -867,7 +867,7 @@ fun main() {
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 코딩 테스트
@@ -898,7 +898,7 @@ fun main() {
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # Toy Project: Ruby Warrior
@@ -908,7 +908,7 @@ headerLogo: /logo.svg
 * WarriorJS, Python Warrior 등 파생 프로젝트로 존재
 * 사용자가 입력한 코드를 실행할 수 있어야함
 
-<Image src="/ruby-warrior.webp" width="300" style="margin-top: 20px;" />
+<Image src="/pt-kotlin-script/ruby-warrior.webp" width="300" style="margin-top: 20px;" />
 
 <!--
 그리고 마지막으로 이건 제가 개인 프로젝트로 발표날까지 완성시키려했으나 현생으로인해 못한 프로젝트입니다.
@@ -933,7 +933,7 @@ subject: Conclusion
 layout: default
 headerEnable: true
 headerTitle: Kotlin Script 활용하기
-headerLogo: /logo.svg
+headerLogo: /pt-kotlin-script/logo.svg
 ---
 
 # 실험 단계지만 쓰려면 잘 쓸 수 있을 것 같다!
@@ -967,7 +967,7 @@ headerLogo: /logo.svg
 layout: center
 ---
 
-<Image src="/thankyou.png" width="600" />
+<Image src="/pt-kotlin-script/thankyou.png" width="600" />
 
 <!--
 그럼 이번 발표는 여기서 마치도록 하겠습니다.
